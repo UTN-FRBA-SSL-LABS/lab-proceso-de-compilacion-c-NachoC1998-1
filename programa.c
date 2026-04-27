@@ -73,6 +73,7 @@ int main(void) {
 
     /* Funciones de matematica.c  →  se resuelven en el ENLAZADO */
     printf("area_circulo(%.1f) = %.4f\n", radio, area_circulo(radio));
+    printf("potencia(2.0, 10) = %.0f\n", potencia(2.0, 10));
 
     printf("Factoriales:\n");
     for (i = 0; i <= LIMITE; i++) {
